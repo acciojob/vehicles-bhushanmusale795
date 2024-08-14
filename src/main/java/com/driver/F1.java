@@ -17,4 +17,3 @@ public class F1 extends Car {
         return "F1{name='" + getVehicleName() + "', capacity=" + getVehicleCapacity() + ", numDoors=" + getNumDoors() + ", team='" + team + "'}";
     }
 }
-
