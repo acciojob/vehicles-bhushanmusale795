@@ -2,26 +2,21 @@ package com.driver;
 
 public class Main {
     public static void main(String[] args) {
-        // Test Vehicle
-        Vehicle vehicle = new Vehicle("Truck", 80);
-        System.out.println(vehicle.getVehicleName()); // Expected: Truck
-        System.out.println(vehicle.getMaxSpeed());    // Expected: 80
+        // Testing Vehicle
+        Vehicle vehicle = new Vehicle("Generic Vehicle", 4);
+        System.out.println(vehicle);
 
-        // Test Car
-        Car car = new Car("Sedan", 150, 4);
-        System.out.println(car.getVehicleName());     // Expected: Sedan
-        System.out.println(car.getMaxSpeed());        // Expected: 150
-        System.out.println(car.getNumberOfDoors());   // Expected: 4
+        // Testing Car
+        Car car = new Car("Sedan", 5, 4);
+        System.out.println(car);
 
-        // Test F1
-        F1 f1 = new F1("Ferrari", 300, "Ferrari Team");
-        System.out.println(f1.getVehicleName());      // Expected: Ferrari
-        System.out.println(f1.getMaxSpeed());         // Expected: 300
-        System.out.println(f1.getTeam());             // Expected: Ferrari Team
+        // Testing F1
+        F1 f1 = new F1("Ferrari F1", 2, 2, "Scuderia Ferrari");
+        System.out.println(f1);
 
-        // Test Boat
-        Boat boat = new Boat("Yacht", 20);
-        System.out.println(boat.getVehicleName());    // Expected: Yacht
-        System.out.println(boat.getVehicleCapacity());// Expected: 20
+        // Testing Boat
+        Boat boat = new Boat("Yacht", 10);
+        System.out.println(boat);
     }
 }
+
